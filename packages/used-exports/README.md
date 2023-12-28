@@ -1,6 +1,6 @@
 # Used Exports Optimization
 
-`optimization.usedExports` is used to to following optimization
+`optimization.usedExports` is used to following optimization
 
 we can see the build result removes `const b = 1` when it's not used.
 ```js
