@@ -1,2 +1,2 @@
-import { a } from './lib';
+import { a,b } from './lib';
 console.log({a});
