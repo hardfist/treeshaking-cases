@@ -20,49 +20,47 @@ importers:
         specifier: 5.1.4
         version: 5.1.4(webpack@5.89.0)
 
-  packages/basic: {}
+  packages/dce/const-plugin: {}
 
-  packages/no-tree-shaking: {}
+  packages/side-effects/reexport-with-no-provided-exports: {}
 
-  packages/reexport-with-no-provided-exports: {}
+  packages/side-effects/reexport-with-provided-exports: {}
 
-  packages/reexport-with-provided-exports: {}
+  packages/side-effects/side-effects-disabled: {}
 
-  packages/side-effects-disabled: {}
+  packages/side-effects/side-effects-enabled: {}
 
-  packages/side-effects-enabled: {}
+  packages/side-effects/side-effects-skip-barrel: {}
 
-  packages/side-effects-skip-barrel: {}
+  packages/side-effects/side-effects-used-variable: {}
 
-  packages/side-effects-used-variable: {}
+  packages/side-effects/side-effects-with-complex-statement: {}
 
-  packages/side-effects-with-complex-statement: {}
+  packages/side-effects/side-effects-with-inner-graph: {}
 
-  packages/side-effects-with-inner-graph: {}
+  packages/side-effects/side-effects-with-pure-annotation: {}
 
-  packages/side-effects-with-pure-annotation: {}
+  packages/side-effects/side-effects-with-side-effect-code: {}
 
-  packages/side-effects-with-side-effect-code: {}
+  packages/side-effects/side-effects-with-side-effect-props: {}
 
-  packages/side-effects-with-side-effect-props: {}
+  packages/side-effects/side-effects-with-subtree-side-effect: {}
 
-  packages/side-effects-with-subtree-side-effect: {}
+  packages/side-effects/side-effects-without-inner-graph: {}
 
-  packages/side-effects-without-inner-graph: {}
+  packages/used-exports/used-exports-dce: {}
 
-  packages/used-exports: {}
+  packages/used-exports/used-exports-disabled: {}
 
-  packages/used-exports-dce: {}
+  packages/used-exports/used-exports-minify: {}
 
-  packages/used-exports-minify: {}
+  packages/used-exports/used-exports-no-minify: {}
 
-  packages/used-exports-no-minify: {}
+  packages/used-exports/used-exports-with-inner-graph: {}
 
-  packages/used-exports-with-inner-graph: {}
+  packages/used-exports/used-exports-without-dce: {}
 
-  packages/used-exports-without-dce: {}
-
-  packages/used-exports-without-inner-graph: {}
+  packages/used-exports/used-exports-without-inner-graph: {}
 
 packages:
 
