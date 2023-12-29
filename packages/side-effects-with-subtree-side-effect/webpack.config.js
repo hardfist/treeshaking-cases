@@ -10,5 +10,8 @@ module.exports = {
   },
   experiments: {
     css: true
+  },
+  stats: {
+    optimizationBailout: true
   }
 };
