@@ -10,5 +10,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "sideEffects": ["**/*.css"]
+  "sideEffects": ["**/*.css", "side-effect.js"]
 }
