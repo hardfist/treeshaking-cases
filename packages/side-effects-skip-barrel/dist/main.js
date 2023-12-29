@@ -1,12 +1,11 @@
 (() => {
     "use strict";
     var __webpack_modules__ = {
-        "./src/lib.js": (__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+        "./src/components/button.js": (__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
             __webpack_require__.r(__webpack_exports__), __webpack_require__.d(__webpack_exports__, {
-                a: () => a,
-                b: () => b
+                Button: () => Button
             });
-            const a = 1, b = 2;
+            const Button = () => "button";
         }
     }, __webpack_module_cache__ = {};
     function __webpack_require__(moduleId) {
@@ -34,7 +33,7 @@
     var __webpack_exports__ = {};
     (() => {
         __webpack_require__.r(__webpack_exports__);
-        var _reexport__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("./src/lib.js");
-        console.log("a:", _reexport__WEBPACK_IMPORTED_MODULE_0__.a);
+        var _components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("./src/components/button.js");
+        console.log("button:", _components__WEBPACK_IMPORTED_MODULE_0__.Button);
     })();
 })();

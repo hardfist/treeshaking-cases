@@ -1,2 +1,2 @@
-import { a } from './reexport';
-console.log('a:',a);
+import { Button } from './components';
+console.log('button:',Button);
