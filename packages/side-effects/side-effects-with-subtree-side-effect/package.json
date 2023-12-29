@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:all": "pnpm build && pnpm build:esbuild && pnpm build:rollup",
-    "build": "webpack",
+    "build": "pnpm build && pnpm build:esbuild && pnpm build:rollup",
+    "build:webpack": "webpack",
     "build:esbuild": "esbuild ./src/index.js --bundle  --outdir=esbuild-dist",
     "build:rollup": "rollup ./src/index.js --dir rollup-dist -e ./index.css,./button.css"
   },

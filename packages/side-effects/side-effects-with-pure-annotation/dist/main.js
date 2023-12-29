@@ -13,6 +13,22 @@ __webpack_require__.r(__webpack_exports__);
 const a = 1;
 const b = 2;
 
+/***/ }),
+
+/***/ "./src/util.js":
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   c: () => (/* binding */ c),
+/* harmony export */   d: () => (/* binding */ d)
+/* harmony export */ });
+const c = 123;
+const d = test();
+function test(){
+  return 456;
+}
+
 /***/ })
 
 /******/ 	});
@@ -75,10 +91,11 @@ var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
 (() => {
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _lib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("./src/lib.js");
+/* harmony import */ var _lib__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("./src/lib.js");
+/* harmony import */ var _util__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("./src/util.js");
 
 
-console.log({a: _lib__WEBPACK_IMPORTED_MODULE_0__.a});
+console.log({a: _lib__WEBPACK_IMPORTED_MODULE_1__.a});
 })();
 
 /******/ })()

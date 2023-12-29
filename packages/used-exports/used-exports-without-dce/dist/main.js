@@ -6,9 +6,9 @@
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   a: () => (/* binding */ a),
-/* harmony export */   b: () => (/* binding */ b)
+/* harmony export */   a: () => (/* binding */ a)
 /* harmony export */ });
+/* unused harmony export b */
 const a = 1;
 const b = 2;
 
@@ -64,9 +64,7 @@ var __webpack_exports__ = {};
 /* harmony import */ var _lib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
 
 console.log({a: _lib__WEBPACK_IMPORTED_MODULE_0__.a});
-if(false){
-  console.log(_lib__WEBPACK_IMPORTED_MODULE_0__.b);
-}
+if(false){}
 })();
 
 /******/ })()
