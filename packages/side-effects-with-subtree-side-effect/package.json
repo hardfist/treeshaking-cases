@@ -9,5 +9,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "sideEffects": false
+  "sideEffects": ["**/*.css"]
 }
