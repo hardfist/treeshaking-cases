@@ -1,4 +1,7 @@
 (() => {
+  // src/side-effect.js
+  console.log("side-effect");
+
   // src/lib.js
   var a = 1;
 

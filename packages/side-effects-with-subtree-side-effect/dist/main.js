@@ -1,10 +1,10 @@
 /******/ (() => { // webpackBootstrap
-/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "./src/lib.js":
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   a: () => (/* binding */ a),
@@ -12,6 +12,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const a = 1;
 const b = 2;
+
+/***/ }),
+
+/***/ "./src/side-effect.js":
+/***/ (() => {
+
+console.log('side-effect');
 
 /***/ })
 
@@ -45,6 +52,18 @@ const b = 2;
 /******/ 	__webpack_require__.m = __webpack_modules__;
 /******/ 	
 /************************************************************************/
+/******/ 	/* webpack/runtime/compat get default export */
+/******/ 	(() => {
+/******/ 		// getDefaultExport function for compatibility with non-harmony modules
+/******/ 		__webpack_require__.n = (module) => {
+/******/ 			var getter = module && module.__esModule ?
+/******/ 				() => (module['default']) :
+/******/ 				() => (module);
+/******/ 			__webpack_require__.d(getter, { a: getter });
+/******/ 			return getter;
+/******/ 		};
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/define property getters */
 /******/ 	(() => {
 /******/ 		// define getter functions for harmony exports
@@ -200,15 +219,19 @@ const b = 2;
 /******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
-// This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
+// This entry need to be wrapped in an IIFE because it need to be in strict mode.
 (() => {
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("./src/index.css");
-/* harmony import */ var _lib__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("./src/lib.js");
+/* harmony import */ var _side_effect__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("./src/side-effect.js");
+/* harmony import */ var _side_effect__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_side_effect__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _lib__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("./src/lib.js");
 
 
 
-console.log({a: _lib__WEBPACK_IMPORTED_MODULE_1__.a});
+
+console.log({a: _lib__WEBPACK_IMPORTED_MODULE_2__.a});
 })();
 
 /******/ })()
