@@ -33,7 +33,7 @@
     var __webpack_exports__ = {};
     (() => {
         __webpack_require__.r(__webpack_exports__);
-        var _components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("./src/components/button.js");
-        console.log("button:", _components__WEBPACK_IMPORTED_MODULE_0__.Button);
+        var _components_index__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("./src/components/button.js");
+        console.log("button:", _components_index__WEBPACK_IMPORTED_MODULE_0__.Button);
     })();
 })();

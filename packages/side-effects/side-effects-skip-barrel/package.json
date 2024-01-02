@@ -5,7 +5,10 @@
   "main": "index.js",
   "sideEffects": false,
   "scripts": {
-    "build": "webpack"
+    "build": "pnpm run build:webpack && pnpm run build:esbuild && pnpm run build:rollup",
+    "build:webpack": "webpack",
+    "build:esbuild": "esbuild ./src/index.js --bundle  --outdir=esbuild-dist",
+    "build:rollup": "rollup ./src/index.js --dir rollup-dist "
   },
   "keywords": [],
   "author": "",

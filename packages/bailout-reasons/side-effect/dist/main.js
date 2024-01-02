@@ -17,10 +17,7 @@ const b = 2;
 /***/ "./src/util.js":
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   abc: () => (/* binding */ abc)
-/* harmony export */ });
-/* unused harmony export def */
+/* unused harmony exports abc, def */
 function abc(){
   console.log('abc');
 }
@@ -84,10 +81,6 @@ var __webpack_exports__ = {};
 
 
 console.log({a: _lib__WEBPACK_IMPORTED_MODULE_1__.a});
-
-function test(){
-  console.log(_util__WEBPACK_IMPORTED_MODULE_0__.abc);
-}
 })();
 
 /******/ })()

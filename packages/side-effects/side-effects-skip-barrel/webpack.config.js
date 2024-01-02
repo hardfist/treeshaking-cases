@@ -9,6 +9,7 @@ module.exports = {
     sideEffects: true,
     moduleIds: 'named',
     chunkIds: 'named',
+    
     minimizer: [
       new TerserPlugin({
         terserOptions: {
